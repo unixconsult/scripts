@@ -1,0 +1,5 @@
+1. prepare the files to ramdisk /scripts/cpuspeed/initiate-get-temp.sh
+2. start apache service apache2 start
+3. start script get-temp.sh in crontab  1x per minute to collect the values, they are written into /dev/shm/temperature.csv
+4. get graph from IP/temperature.html  
+5. run set-cpuspeed.sh  to set to 2 cores 400MHz
